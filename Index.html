@@ -1,86 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Lab 2 — HTML5</title>
+    <title>Welcome to Lab 2</title>
 </head>
-
 <body>
-    <!-- Top anchsor for "Go to Top" links -->
-    <a id="top"></a>
 
     <h1>Welcome to Lab 2</h1>
-    <h1>This is heading 1.</h1>
-    <h2>This is heading 2.</h2>
+
+    <h2>This is heading 1.</h2>
+
+    <h3>This is heading 2.</h3>
+
     <p>This is a new paragraph.</p>
 
-    <hr>
+    <p>This sentence uses <strong><strong>&lt;strong&gt;</strong> for strong importance.</strong></p>
 
-    <!-- Example of an HTML comment -->
-    <!-- This is at least one comment in the document -->
+    <p>This sentence uses both <span class="italic-text"><strong>&lt;strong&gt;</strong> for strong importance and <em>&lt;em&gt;</em> for emphasis.</span></p>
 
-    <p>This sentence uses <strong>strong importance</strong>.</p>
-    <p>This sentence uses both <strong>strong importance</strong> and <em>emphasis</em>.</p>
-    <p><i>This sentence is written in italic style.</i></p>
-    <p><small>This sentence is written in small style.</small></p>
-    <p>This sentence contains subscript H<sub>2</sub>O and superscript x<sup>2</sup> text.</p>
-    <p>This sentence contains <del>deleted text</del> and <ins>inserted text</ins>.</p>
+    <p class="italic-text">This sentence is written in italic style.</p>
 
-    <p>The HTML <code>&lt;a&gt;</code> (anchor) tag defines a hyperlink.</p>
-    <p>
-        A hyperlink (or link) is a word, group of words, or image that you can click on to jump to another document.
-    </p>
-    <p>
-        When you move the cursor over a link in a Web page, the arrow will turn into a little hand.
-    </p>
-    <p>
-        The most important attribute of the <code>&lt;a&gt;</code> element is the <code>href</code> attribute, which
-        indicates the link’s destination.
-    </p>
-    <p>By default, links will appear as follows in all browsers:</p>
-    <ol>
-        <li>An unvisited link is underlined and blue.</li>
-        <li>A visited link is underlined and purple.</li>
-        <li>An active link is underlined and red.</li>
-    </ol>
+    <p class="small-text">This sentence is written in small style.</p>
 
-    <p><a href="https://www.algomau.ca" target="_blank" rel="noopener">Algoma University</a></p>
+    <p>This sentence contains <sub>subscript</sub> and <sup>superscript</sup> text.</p>
+
+    <p>This sentence contains <del>deleted</del> text and <ins>inserted</ins> text.</p>
+
+    <pre>
+The HTML &lt;a&gt; (anchor) tag defines a hyperlink.
+A hyperlink (or link) is a word, group of words, or image that you can  click on to jump to another document.
+<br>Usually, when you mouse over a link you will see a little arrow that turns to a little hand.
+<br>The most important attribute of the &lt;a&gt; element is the href attribute, which indicates the link's destination.
+<br>By default, links will appear as follows in all browsers:
+<br>   1. A not visited link is underlined and blue.
+<br>   2. A visited link is underlined and purple.
+<br>   3. An active link is underlined and red.
+<br><a href="https://www.algonquincollege.com">Algonquin University</a>
+    </pre>
 
     <h1>Our Milky Way Galaxy</h1>
-    <h2>The picture dimensions are 300x200 pixels</h2>
-    <!-- Replace "milkyway.jpg" with your image file or a URL -->
+
+    <p>The picture dimensions are 300x200 pixels</p>
     <p>
-        <img src="milkyway.jpg" width="300" height="200" alt="Our Milky Way Galaxy">
+        <img src="Pic/milkyway.jpg" width="300" height="200" alt="Milky Way Galaxy">
     </p>
 
     <p>There are two more tags below:</p>
-    <p>1. HTML List</p>
-    <p>2. HTML Table</p>
-
-    <h3>The Ordered List</h3>
     <ol>
-        <li>First ordered item</li>
-        <li>Second ordered item</li>
-        <li>Third ordered item</li>
+        <li>HTML List</li>
+        <li>HTML Table</li>
     </ol>
 
-    <h3>The Unordered List</h3>
+    <h3>HTML List</h3>
     <ul>
-        <li>First unordered item</li>
-        <li>Second unordered item</li>
-        <li>Third unordered item</li>
+        <li>The Ordered List</li>
+        <li>The unordered List</li>
+        <li>The definition List
+            <dl>
+                <p>&lt;dt&gt; defines the item in the list.<br>
+                    &lt;dd&gt; - describes the item in the list.</p>
+                 <p>For example:</p>
+            </dl>
+        </li>
     </ul>
 
-    <h3>The Definition List</h3>
+
     <dl style="margin-left: 50px;">
         <dt><b>HTML</b></dt>
-        <dd>Hypertext Markup Language</dd>
+        <dd>- Hypertext Markup Language</dd>
     </dl>
 
-    <h3>HTML Table</h3>
-    <table border="1" cellspacing="0" cellpadding="8">
+    <table border="1">
         <thead>
             <tr>
                 <th>Header Column 1</th>
@@ -105,17 +94,8 @@
         </tbody>
     </table>
 
-    <p><a href="#top">Go to Top</a></p>
-
-    <hr>
-
-    <h2>Submission</h2>
-    <p>Copy your repository URL into the space provided below.</p>
-    <p>e.g. GitHub Repository URL: <code>https://github.com/your_username/lab2.git</code></p>
-
-    <p>Upload this file to Dropbox and send the Repository URL to our T.A., Arpan Adhikari at <a
-            href="mailto:aradhikari@algomau.ca">aradhikari@algomau.ca</a>.</p>
+    <br>
+    <a href="#">Go to Top</a>
 
 </body>
-
 </html>
